@@ -1,0 +1,29 @@
+Bill of Materials
+
+1 x SN74LS14N 
+1 x Push button
+1 x 1 K Ω Resistor
+1 x 10 K Ω Resistor
+6 x 220 Ω Resistor
+6 x LEDs (Whote)
+1 x 1uF Capacitor 
+1 x MG995 Servo Motor
+1 x Arduino NANO (or UNO)
+1 x Slide switch ( 2 positions)
+
+For power up the helmet we have 2 options...
+
+Option 1: 
+2 x 9VDC batteries
+
+Option 2:
+3 x TP4056 (Lithium Battery Charging Board)
+3 x 3.7 VDC lithium rechargeable battery (  between 1000 - 2000 mAh)
+1 x MT3608 (DC-DC Step Up Converter Booster Power Supply)
+
+Recommendations
+- Test everything on a Breadboard before installing on the helmet
+- You will need some wires and jumpers for wiring
+- For the LiPo batteries you must connect them in series to increase the voltage and maintain the current for the Servo
+- It is important to protect every LiPo battery wit a TP4056 board, as they can get damaged if we don't have this protection
+- Go for a curstom PCB board if you have any around
